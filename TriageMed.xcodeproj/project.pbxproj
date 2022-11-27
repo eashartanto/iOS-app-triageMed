@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403D90B293321430014FEE9 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D90A293321430014FEE9 /* LaunchScreenViewController.swift */; };
+		0403D90D2933216F0014FEE9 /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D90C2933216F0014FEE9 /* GettingStartedViewController.swift */; };
+		0403D90F293321820014FEE9 /* GettingStarted2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D90E293321820014FEE9 /* GettingStarted2ViewController.swift */; };
+		0403D911293321990014FEE9 /* GettingStartedCompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D910293321990014FEE9 /* GettingStartedCompletionViewController.swift */; };
+		0403D9132933220A0014FEE9 /* DiagnosticTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D9122933220A0014FEE9 /* DiagnosticTabViewController.swift */; };
+		0403D917293322430014FEE9 /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D916293322430014FEE9 /* ProfileTabViewController.swift */; };
+		0403D9192933224E0014FEE9 /* EmergencyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D9182933224E0014FEE9 /* EmergencyTabViewController.swift */; };
+		0403D921293340C80014FEE9 /* EmpHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D920293340C80014FEE9 /* EmpHistoryViewController.swift */; };
+		0403D927293347140014FEE9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D926293347140014FEE9 /* TabBarController.swift */; };
+		0403D92929334A5E0014FEE9 /* HistoryTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D92829334A5E0014FEE9 /* HistoryTabViewController.swift */; };
 		244399692932C3DD00E1E46C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244399682932C3DD00E1E46C /* AppDelegate.swift */; };
 		2443996B2932C3DD00E1E46C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443996A2932C3DD00E1E46C /* SceneDelegate.swift */; };
 		2443996D2932C3DD00E1E46C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443996C2932C3DD00E1E46C /* ViewController.swift */; };
@@ -37,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0403D90A293321430014FEE9 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		0403D90C2933216F0014FEE9 /* GettingStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
+		0403D90E293321820014FEE9 /* GettingStarted2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted2ViewController.swift; sourceTree = "<group>"; };
+		0403D910293321990014FEE9 /* GettingStartedCompletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedCompletionViewController.swift; sourceTree = "<group>"; };
+		0403D9122933220A0014FEE9 /* DiagnosticTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticTabViewController.swift; sourceTree = "<group>"; };
+		0403D916293322430014FEE9 /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
+		0403D9182933224E0014FEE9 /* EmergencyTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTabViewController.swift; sourceTree = "<group>"; };
+		0403D920293340C80014FEE9 /* EmpHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpHistoryViewController.swift; sourceTree = "<group>"; };
+		0403D926293347140014FEE9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0403D92829334A5E0014FEE9 /* HistoryTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTabViewController.swift; sourceTree = "<group>"; };
 		244399652932C3DD00E1E46C /* TriageMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriageMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		244399682932C3DD00E1E46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2443996A2932C3DD00E1E46C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +125,16 @@
 				2443996A2932C3DD00E1E46C /* SceneDelegate.swift */,
 				2443996C2932C3DD00E1E46C /* ViewController.swift */,
 				2443996E2932C3DE00E1E46C /* Main.storyboard */,
+				0403D926293347140014FEE9 /* TabBarController.swift */,
+				0403D920293340C80014FEE9 /* EmpHistoryViewController.swift */,
+				0403D916293322430014FEE9 /* ProfileTabViewController.swift */,
+				0403D9182933224E0014FEE9 /* EmergencyTabViewController.swift */,
+				0403D9122933220A0014FEE9 /* DiagnosticTabViewController.swift */,
+				0403D90A293321430014FEE9 /* LaunchScreenViewController.swift */,
+				0403D90C2933216F0014FEE9 /* GettingStartedViewController.swift */,
+				0403D90E293321820014FEE9 /* GettingStarted2ViewController.swift */,
+				0403D910293321990014FEE9 /* GettingStartedCompletionViewController.swift */,
+				0403D92829334A5E0014FEE9 /* HistoryTabViewController.swift */,
 				244399742932C3F000E1E46C /* Assets.xcassets */,
 				244399762932C3F000E1E46C /* LaunchScreen.storyboard */,
 				244399792932C3F000E1E46C /* Info.plist */,
@@ -261,10 +291,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0403D9192933224E0014FEE9 /* EmergencyTabViewController.swift in Sources */,
 				244399732932C3DE00E1E46C /* TriageMed.xcdatamodeld in Sources */,
+				0403D92929334A5E0014FEE9 /* HistoryTabViewController.swift in Sources */,
+				0403D911293321990014FEE9 /* GettingStartedCompletionViewController.swift in Sources */,
+				0403D921293340C80014FEE9 /* EmpHistoryViewController.swift in Sources */,
 				2443996D2932C3DD00E1E46C /* ViewController.swift in Sources */,
 				244399692932C3DD00E1E46C /* AppDelegate.swift in Sources */,
+				0403D90D2933216F0014FEE9 /* GettingStartedViewController.swift in Sources */,
+				0403D90B293321430014FEE9 /* LaunchScreenViewController.swift in Sources */,
+				0403D9132933220A0014FEE9 /* DiagnosticTabViewController.swift in Sources */,
+				0403D917293322430014FEE9 /* ProfileTabViewController.swift in Sources */,
+				0403D927293347140014FEE9 /* TabBarController.swift in Sources */,
 				2443996B2932C3DD00E1E46C /* SceneDelegate.swift in Sources */,
+				0403D90F293321820014FEE9 /* GettingStarted2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
