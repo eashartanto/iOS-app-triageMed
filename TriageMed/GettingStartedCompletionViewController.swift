@@ -15,7 +15,13 @@ class GettingStartedCompletionViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func proceedToTabbar(_ sender: UIButton) {
+        performSegue(withIdentifier: "showTabBarController", sender: nil)
+    }
+    
+    @IBAction func backtoSecondStep(_ sender: UIButton) {
+        performSegue(withIdentifier: "gobacktoGettingStarted2", sender: nil)
+    }
     /*
     // MARK: - Navigation
 
