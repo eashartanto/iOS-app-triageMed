@@ -15,8 +15,16 @@ class GettingStarted2ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
+    @IBAction func pushFinalScreen(_ sender: UIButton) {
+        performSegue(withIdentifier: "completeGettingStarted", sender: nil)
+    }
+    
+    @IBAction func goBack(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "gobacktoGettingStarted1", sender: nil)
+    }
+    
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -24,6 +32,6 @@ class GettingStarted2ViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }
