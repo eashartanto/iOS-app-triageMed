@@ -43,6 +43,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
             self.viewControllers?.insert(nohistory, at: 1)
             tabBarController.tabBar.items![1].image = UIImage(named: "history_icon")
             tabBarController.tabBar.items![1].selectedImage = UIImage(named: "history_icon")
+            tabBarController.tabBar.items![1].title = "History"
             tabBarController.tabBar.items![1].standardAppearance = backup
             tabBarController.selectedIndex = 1
             historyEmpty=false
