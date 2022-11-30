@@ -13,6 +13,18 @@ class LaunchScreenViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+            self.performSegue(withIdentifier: "moveFromLaunchScreen", sender: self)
+        })
+            
+            
+        // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+              self.performSegue(withIdentifier: "moveFromLaunchScreen", sender: self)
+         })
     }
     
 
