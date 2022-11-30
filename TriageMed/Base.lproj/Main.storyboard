@@ -150,31 +150,135 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maskGroup" translatesAutoresizingMaskIntoConstraints="NO" id="mZH-qf-sqq">
-                                <rect key="frame" x="18" y="57" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewl-xg-0wQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Emergency Contacts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewl-xg-0wQ">
                                 <rect key="frame" x="64" y="60" width="274" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle171" translatesAutoresizingMaskIntoConstraints="NO" id="YBS-KJ-qGU">
-                                <rect key="frame" x="64" y="158" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cD1-dq-xqt">
+                                <rect key="frame" x="241" y="111.99999999999999" width="128" height="34.333333333333329"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Last Results" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emergency_title_icon" translatesAutoresizingMaskIntoConstraints="NO" id="uJL-JF-9yM">
+                                <rect key="frame" x="16" y="57" width="40" height="40"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F8R-5G-0z8"/>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ewl-xg-0wQ" firstAttribute="leading" secondItem="F8R-5G-0z8" secondAttribute="leading" constant="64" id="2z6-WN-D8q"/>
+                            <constraint firstItem="uJL-JF-9yM" firstAttribute="leading" secondItem="F8R-5G-0z8" secondAttribute="leading" constant="16" id="9I0-Op-Hzi"/>
+                            <constraint firstItem="cD1-dq-xqt" firstAttribute="leading" secondItem="F8R-5G-0z8" secondAttribute="leading" constant="241" id="DfF-e8-KCI"/>
+                            <constraint firstItem="ewl-xg-0wQ" firstAttribute="top" secondItem="F8R-5G-0z8" secondAttribute="top" constant="1" id="HHQ-Xg-6IC"/>
+                            <constraint firstItem="F8R-5G-0z8" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ewl-xg-0wQ" secondAttribute="trailing" id="Kkq-aR-tqh"/>
+                            <constraint firstItem="uJL-JF-9yM" firstAttribute="top" secondItem="ewl-xg-0wQ" secondAttribute="bottom" constant="-37" id="PpQ-OX-B5A"/>
+                            <constraint firstItem="F8R-5G-0z8" firstAttribute="trailing" secondItem="cD1-dq-xqt" secondAttribute="trailing" constant="24" id="YyA-LO-GgW"/>
+                            <constraint firstItem="cD1-dq-xqt" firstAttribute="top" secondItem="ewl-xg-0wQ" secondAttribute="bottom" constant="18" id="lny-re-5qD"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Emergency" image="emergency_icon" selectedImage="emergency_icon" id="H5l-6T-aIw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jh8-Zl-r0T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2600.7633587786258" y="-23.239436619718312"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KPl-Xc-Qbq">
+            <objects>
+                <viewController id="lDy-gW-z7P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jab-zR-O80">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nua-5v-pjX">
+                                <rect key="frame" x="28" y="145" width="335" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="JAY-FQ-tkn"/>
+                                </constraints>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="andreasProfile" title=" " cornerStyle="large"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3M8-nc-lOB">
+                                <rect key="frame" x="29" y="290" width="335" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="ads-gr-tJK"/>
+                                </constraints>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="ankitProfile" title=" " cornerStyle="large"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jn2-x6-TKI">
+                                <rect key="frame" x="29" y="435" width="336.66666666666663" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="gbB-hu-Joa"/>
+                                </constraints>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="muhammedProfile" title=" " cornerStyle="large"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="About Developer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4I1-B4-DRz">
+                                <rect key="frame" x="64" y="60" width="220" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="information_icon" translatesAutoresizingMaskIntoConstraints="NO" id="GBb-iR-ASG">
+                                <rect key="frame" x="16" y="57" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="0Wm-Zk-23B"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxZ-v4-GtO">
+                                <rect key="frame" x="29" y="580" width="336.66666666666663" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="th6-8W-cH6"/>
+                                </constraints>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="tatiProfile" title=" " cornerStyle="large"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DH9-8g-J1J">
+                                <rect key="frame" x="325" y="60" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="close_icon">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yGu-Oj-tjq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yGu-Oj-tjq" firstAttribute="bottom" secondItem="fxZ-v4-GtO" secondAttribute="bottom" constant="53" id="5Id-F6-uKj"/>
+                            <constraint firstItem="4I1-B4-DRz" firstAttribute="top" secondItem="yGu-Oj-tjq" secondAttribute="top" constant="1" id="7Jm-ac-tge"/>
+                            <constraint firstItem="4I1-B4-DRz" firstAttribute="leading" secondItem="GBb-iR-ASG" secondAttribute="trailing" constant="8" symbolic="YES" id="9Yd-02-ccl"/>
+                            <constraint firstItem="GBb-iR-ASG" firstAttribute="leading" secondItem="Jab-zR-O80" secondAttribute="leadingMargin" id="C7d-Ti-0RS"/>
+                            <constraint firstItem="3M8-nc-lOB" firstAttribute="top" secondItem="nua-5v-pjX" secondAttribute="bottom" constant="40" id="D8m-Sf-rOr"/>
+                            <constraint firstItem="3M8-nc-lOB" firstAttribute="leading" secondItem="nua-5v-pjX" secondAttribute="leading" constant="1" id="Jt0-C8-Edw"/>
+                            <constraint firstItem="Jn2-x6-TKI" firstAttribute="top" secondItem="3M8-nc-lOB" secondAttribute="bottom" constant="40" id="O2b-U1-yYJ"/>
+                            <constraint firstItem="GBb-iR-ASG" firstAttribute="centerY" secondItem="4I1-B4-DRz" secondAttribute="centerY" id="Uvr-Sc-H21"/>
+                            <constraint firstItem="Jn2-x6-TKI" firstAttribute="trailing" secondItem="fxZ-v4-GtO" secondAttribute="trailing" id="VvB-ak-KWW"/>
+                            <constraint firstItem="3M8-nc-lOB" firstAttribute="centerX" secondItem="Jn2-x6-TKI" secondAttribute="centerX" id="XmD-qe-Hgo"/>
+                            <constraint firstItem="fxZ-v4-GtO" firstAttribute="top" secondItem="Jn2-x6-TKI" secondAttribute="bottom" constant="40" id="Z4C-Ng-QJ6"/>
+                            <constraint firstItem="Jn2-x6-TKI" firstAttribute="leading" secondItem="fxZ-v4-GtO" secondAttribute="leading" id="fc7-lc-VvZ"/>
+                            <constraint firstItem="3M8-nc-lOB" firstAttribute="trailing" secondItem="nua-5v-pjX" secondAttribute="trailing" constant="1" id="nLP-0Z-eGo"/>
+                            <constraint firstItem="3M8-nc-lOB" firstAttribute="centerX" secondItem="Jab-zR-O80" secondAttribute="centerX" id="pSx-t0-heA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nua-5v-pjX" secondAttribute="trailing" constant="14" id="usb-LL-704"/>
+                            <constraint firstItem="3M8-nc-lOB" firstAttribute="leading" secondItem="Jn2-x6-TKI" secondAttribute="leading" id="xla-Rg-yIH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kQc-1U-9ge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3394" y="-313"/>
         </scene>
         <!--Emp History View Controller-->
         <scene sceneID="AcF-fU-gba">
@@ -297,12 +401,17 @@ my trigger variable
         </scene>
     </scenes>
     <resources>
+        <image name="andreasProfile" width="319" height="98.333335876464844"/>
+        <image name="ankitProfile" width="319" height="81"/>
+        <image name="close_icon" width="43" height="42"/>
         <image name="diagnose_icon" width="25" height="25"/>
         <image name="emergency_icon" width="25" height="25"/>
+        <image name="emergency_title_icon" width="40" height="40"/>
         <image name="history_icon" width="25" height="25"/>
-        <image name="maskGroup" width="40" height="40"/>
+        <image name="information_icon" width="42" height="40"/>
+        <image name="muhammedProfile" width="324" height="81"/>
         <image name="profile_icon" width="25" height="25"/>
-        <image name="rectangle171" width="128" height="58"/>
+        <image name="tatiProfile" width="319" height="81"/>
         <namedColor name="AccentColor">
             <color red="0.023529411764705882" green="0.30588235294117649" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
