@@ -1,27 +1,34 @@
 //
-//  DiagnosticTabViewController.swift
+//  Diagnostic3ViewController.swift
 //  TriageMed
 //
-//  Created by Muhammed Kocabas on 2022-11-26.
+//  Created by Tati on 12/1/22.
 //
 
 import UIKit
 
-class DiagnosticTabViewController: UIViewController {
+class Diagnostic3ViewController: UIViewController {
 
-    @IBOutlet var diagnosticIcon: UIButton!
     
-    @IBOutlet var diagnosticHeader: UILabel!
+    @IBOutlet var imgResult: UIImageView!
+    @IBOutlet var lblResult: UILabel!
     
-    @IBOutlet var diagnosticImage: UIImageView!
+    @IBOutlet var headerResult: UILabel!
     
-    @IBOutlet var btnStartDiagnostic: UIButton!
+    @IBOutlet var textResult: UILabel!
     
-    @IBAction func btnStartDiagnostic(_ sender: Any) {
+    @IBOutlet var btnDetails: UIButton!
+    @IBAction func btnDetails(_ sender: UIButton) {
     }
     
-    @IBAction func btnAbout(_ sender: UIButton) {
+    @IBOutlet var btnRedo: UIButton!
+    @IBAction func btnRedo(_ sender: UIButton) {
     }
+    
+    @IBOutlet var btnContact: UIButton!
+    @IBAction func btnContact(_ sender: UIButton) {
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
