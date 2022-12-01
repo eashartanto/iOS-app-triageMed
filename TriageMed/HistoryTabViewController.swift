@@ -8,12 +8,10 @@
 import UIKit
 
 class HistoryTabViewController: UIViewController {
-    @IBOutlet var historyTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        historyTableView.layer.cornerRadius=20
-        historyTableView.layer.backgroundColor = UIColor(named: "AccentColor")?.cgColor
+
         // Do any additional setup after loading the view.
     }
     
