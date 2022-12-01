@@ -8,11 +8,21 @@
 import UIKit
 
 class ProfileTabViewController: UIViewController {
+    @IBOutlet var userNameLable: UILabel!
+    @IBOutlet var userNameLableContainer: UIView!
+    @IBOutlet var userDetailLableContainer: UIView!
+    @IBOutlet var dignosisDetailLableContainer: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        userNameLableContainer.layer.cornerRadius=20
+        userNameLableContainer.layer.backgroundColor = UIColor(named: "profile_name_bg")?.cgColor
+        userDetailLableContainer.layer.cornerRadius=20
+        userDetailLableContainer.layer.backgroundColor = UIColor.systemGray6.cgColor
+        dignosisDetailLableContainer.layer.cornerRadius=20
+        dignosisDetailLableContainer.layer.backgroundColor = UIColor(named: "AccentColor")?.cgColor
+        
+        
     }
     
 
