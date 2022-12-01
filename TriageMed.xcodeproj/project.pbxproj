@@ -27,6 +27,10 @@
 		244399832932C3F100E1E46C /* TriageMedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244399822932C3F100E1E46C /* TriageMedTests.swift */; };
 		2443998D2932C3F200E1E46C /* TriageMedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443998C2932C3F200E1E46C /* TriageMedUITests.swift */; };
 		2443998F2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443998E2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift */; };
+		5BA6DB3029388323000D35D2 /* Diagnostic2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6DB2F29388323000D35D2 /* Diagnostic2ViewController.swift */; };
+		5BA6DB322938833C000D35D2 /* Diagnostic3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6DB312938833C000D35D2 /* Diagnostic3ViewController.swift */; };
+		C2AEEAE82937F4CE001B5697 /* DiagnosticPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AEEAE72937F4CE001B5697 /* DiagnosticPopUpViewController.swift */; };
+		C2AEEAEA2937F4DD001B5697 /* AboutPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AEEAE92937F4DD001B5697 /* AboutPopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		244399882932C3F200E1E46C /* TriageMedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriageMedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443998C2932C3F200E1E46C /* TriageMedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriageMedUITests.swift; sourceTree = "<group>"; };
 		2443998E2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriageMedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BA6DB2F29388323000D35D2 /* Diagnostic2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic2ViewController.swift; sourceTree = "<group>"; };
+		5BA6DB312938833C000D35D2 /* Diagnostic3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic3ViewController.swift; sourceTree = "<group>"; };
+		C2AEEAE72937F4CE001B5697 /* DiagnosticPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticPopUpViewController.swift; sourceTree = "<group>"; };
+		C2AEEAE92937F4DD001B5697 /* AboutPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +136,12 @@
 				0403D926293347140014FEE9 /* TabBarController.swift */,
 				0403D920293340C80014FEE9 /* EmpHistoryViewController.swift */,
 				0403D916293322430014FEE9 /* ProfileTabViewController.swift */,
+				C2AEEAE92937F4DD001B5697 /* AboutPopUpViewController.swift */,
 				0403D9182933224E0014FEE9 /* EmergencyTabViewController.swift */,
+				C2AEEAE72937F4CE001B5697 /* DiagnosticPopUpViewController.swift */,
 				0403D9122933220A0014FEE9 /* DiagnosticTabViewController.swift */,
+				5BA6DB2F29388323000D35D2 /* Diagnostic2ViewController.swift */,
+				5BA6DB312938833C000D35D2 /* Diagnostic3ViewController.swift */,
 				0403D90A293321430014FEE9 /* LaunchScreenViewController.swift */,
 				0403D90C2933216F0014FEE9 /* GettingStartedViewController.swift */,
 				0403D90E293321820014FEE9 /* GettingStarted2ViewController.swift */,
@@ -297,7 +309,11 @@
 				0403D911293321990014FEE9 /* GettingStartedCompletionViewController.swift in Sources */,
 				0403D921293340C80014FEE9 /* EmpHistoryViewController.swift in Sources */,
 				2443996D2932C3DD00E1E46C /* ViewController.swift in Sources */,
+				C2AEEAE82937F4CE001B5697 /* DiagnosticPopUpViewController.swift in Sources */,
+				5BA6DB322938833C000D35D2 /* Diagnostic3ViewController.swift in Sources */,
+				C2AEEAEA2937F4DD001B5697 /* AboutPopUpViewController.swift in Sources */,
 				244399692932C3DD00E1E46C /* AppDelegate.swift in Sources */,
+				5BA6DB3029388323000D35D2 /* Diagnostic2ViewController.swift in Sources */,
 				0403D90D2933216F0014FEE9 /* GettingStartedViewController.swift in Sources */,
 				0403D90B293321430014FEE9 /* LaunchScreenViewController.swift in Sources */,
 				0403D9132933220A0014FEE9 /* DiagnosticTabViewController.swift in Sources */,
@@ -489,7 +505,9 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,10 +9,15 @@ import UIKit
 
 class GettingStartedViewController: UIViewController {
 
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func gettingStarted(_ sender: UIButton) {
+        performSegue(withIdentifier: "gettingstartedstep2", sender: nil)
     }
     
 
